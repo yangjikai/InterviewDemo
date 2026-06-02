@@ -1,0 +1,89 @@
+# ###########################################################
+# 通用 iOS 开发 .gitignore 标准模板（所有项目通用）
+# ###########################################################
+
+#######################
+# 1. macOS 系统文件
+#######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+.DocumentRevisions-V100
+.fseventsd
+.VolumeIcon.icns
+
+#######################
+# 2. Xcode 缓存 / 垃圾文件
+#######################
+xcuserdata/
+*.xcuserstate
+*.xcuserdatad
+*.xcscheme
+*.xcworkspacedata
+UserInterfaceState.xcuserstate
+*.perspectivev3
+*.perspective
+*.xcplugindata
+
+DerivedData/
+build/
+*.xcarchive
+*.ipa
+*.dSYM
+*.dSYM.zip
+*.app
+*.app.dSYM
+
+#######################
+# 3. 证书 / 描述文件（绝对不上传）
+#######################
+*.cer
+*.p12
+*.mobileprovision
+*.provisionprofile
+*.pem
+
+#######################
+# 4. CocoaPods 依赖
+#######################
+Pods/
+Podfile.lock
+*.xcworkspace
+
+#######################
+# 5. fastlane 自动化
+#######################
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+fastlane/test_output
+fastlane/.env
+fastlane/.env.*
+Match_*.txt
+
+#######################
+# 6. 开发工具
+#######################
+# VSCode
+.vscode/
+# JetBrains
+.idea/
+*.iml
+# TRAE
+.trae/
+
+#######################
+# 7. 日志 / 临时文件
+#######################
+*.log
+*.tmp
+*.temp
+*.bak
+
+#######################
+# 8. 其他
+#######################
+*.playground
+*.playgroundbook
